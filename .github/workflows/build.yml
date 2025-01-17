@@ -33,8 +33,7 @@ jobs:
           containerfiles: |
             ./Containerfile
           image: os
-          tags:
-            - latest
+          tags: latest
           oci: false
 
       - name: Login to GitHub Container Registry
