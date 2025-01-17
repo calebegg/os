@@ -10,9 +10,6 @@ on:
       - '**/README.md'
   workflow_dispatch:
 
-concurrency:
-  cancel-in-progress: true
-
 jobs:
   build_push:
     name: Build and push image
