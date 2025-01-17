@@ -62,7 +62,7 @@ jobs:
 
       - name: Sign container image
         run: |
-          cosign sign -y --key env://COSIGN_PRIVATE_KEY ghcr.io/calebegg/os:latest
+          cosign sign -y --key env://COSIGN_PRIVATE_KEY ghcr.io/calebegg/os@sha256:${{ github.sha }}
         env:
           COSIGN_EXPERIMENTAL: false
           COSIGN_PRIVATE_KEY: ${{ secrets.SIGNING_SECRET }}
