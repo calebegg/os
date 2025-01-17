@@ -2,7 +2,7 @@
 
 set -ouex pipefail
 
-### Install packages
-
-dnf install fedora-workstation-repositories
 dnf install -y fastfetch
+
+ostree container commit
+bootc container lint
