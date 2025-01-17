@@ -23,3 +23,9 @@ Caleb needed an os
       ```bash
       rpm-ostree rebase ostree-image-signed:docker://ghcr.io/calebegg/os:latest
       ```
+
+## TODO
+
+- https://atuin.sh/ setup
+- Lint precommit hook
+- https://github.com/calebegg/toolbox-vscode/tree/patch-1
