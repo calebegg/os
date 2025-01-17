@@ -4,9 +4,6 @@ set -ouex pipefail
 
 dnf install -y fastfetch
 
-rpm-ostree kargs --delete=rhgb
-rpm-ostree kargs --delete=quiet
-
 sed -i "s|^NAME=.*|NAME=\"calebegg-os\"|" /usr/lib/os-release
 sed -i "s|^ID=fedora|ID=calebegg-os\nID_LIKE=\"fedora\"|" /usr/lib/os-release
 sed -i "s|^HOME_URL=.*|HOME_URL=\"https://github.com/calebegg/os\"|" /usr/lib/os-release
