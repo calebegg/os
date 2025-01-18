@@ -7,7 +7,7 @@ rsync -rvK /tmp/system_files/* /
 # dnf config-manager setopt google-chrome.enabled=1
 # google-chrome-stable
 
-dnf install -y fastfetch distrobox vim tailscale
+dnf install -y fastfetch distrobox vim tailscale waydroid
 
 sudo systemctl enable --now tailscaled
 
