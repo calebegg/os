@@ -4,7 +4,7 @@ set -ouex pipefail
 
 rsync -rvK /tmp/system_files/* /
 
-dnf config-manager --enable google-chrome
+dnf config-manager setopt google-chrome.enabled=1
 dnf install -y fastfetch distrobox vim google-chrome-stable tailscale
 
 # Update gnome (dconf) settings from files copied into /etc/dconf/db/distro.d
