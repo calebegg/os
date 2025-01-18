@@ -4,9 +4,7 @@ set -ouex pipefail
 
 rsync -rvK /tmp/system_files/* /
 
-dnf config-manager addrepo --from-repofile=/etc/yum.repos.d/google-chrome.repo
-dnf config-manager addrepo --from-repofile=/etc/yum.repos.d/tailscale.repo
-dnf install -y fastfetch distrobox vim google-chrome-stable tailscale
+dnf install -y fastfetch distrobox vim tailscale
 
 # Update gnome (dconf) settings from files copied into /etc/dconf/db/distro.d
 dconf update
