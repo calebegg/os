@@ -32,3 +32,4 @@ Caleb needed an os
 - Monaspace (other fonts?)
 - Blur my shell & https://extensions.gnome.org/extension/5112/tailscale-status/
 - https://gitlab.com/fabiscafe/game-devices-udev
+- https://github.com/m2Giles/m2os/blob/7d48703fffeb96bc10fd8a30e2aa56a02c2cf016/desktop-packages.sh#L16
