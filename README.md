@@ -29,3 +29,5 @@ Caleb needed an os
 - https://atuin.sh/ setup
 - Lint precommit hook
 - https://github.com/calebegg/toolbox-vscode/tree/patch-1
+- Monaspace (other fonts?)
+- Blur my shell
