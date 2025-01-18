@@ -9,6 +9,8 @@ rsync -rvK /tmp/system_files/* /
 
 dnf install -y fastfetch distrobox vim tailscale
 
+sudo systemctl enable --now tailscaled
+
 # Update gnome (dconf) settings from files copied into /etc/dconf/db/distro.d
 dconf update
 
