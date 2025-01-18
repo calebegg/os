@@ -31,3 +31,4 @@ Caleb needed an os
 - https://github.com/calebegg/toolbox-vscode/tree/patch-1
 - Monaspace (other fonts?)
 - Blur my shell
+- https://gitlab.com/fabiscafe/game-devices-udev
