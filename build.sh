@@ -2,7 +2,7 @@
 
 set -ouex pipefail
 
-rsync -rvK /tmp/system_files /
+rsync -rvK /tmp/system_files/* /
 
 dnf config-manager addrepo --from-repofile=/etc/yum.repos.d/*.repo
 dnf install -y fastfetch distrobox vim google-chrome-stable tailscale
