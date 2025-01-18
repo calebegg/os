@@ -30,5 +30,5 @@ Caleb needed an os
 - Lint precommit hook
 - https://github.com/calebegg/toolbox-vscode/tree/patch-1
 - Monaspace (other fonts?)
-- Blur my shell
+- Blur my shell & https://extensions.gnome.org/extension/5112/tailscale-status/
 - https://gitlab.com/fabiscafe/game-devices-udev
