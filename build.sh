@@ -9,7 +9,7 @@ rsync -rvK /tmp/system_files/* /
 
 dnf install -y fastfetch distrobox vim tailscale waydroid
 
-systemctl enable --now tailscaled
+systemctl enable tailscaled
 
 # Update gnome (dconf) settings from files copied into /etc/dconf/db/distro.d
 dconf update
