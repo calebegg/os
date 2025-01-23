@@ -10,6 +10,9 @@ install_packages() {
         vim \
         tailscale
 
+    # Power recommendations from: https://discussion.fedoraproject.org/t/how-can-i-increase-battery-life/111601
+    dnf install -y tlp tlp-rdw
+
     systemctl enable tailscaled
 }
 
