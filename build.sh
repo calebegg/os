@@ -13,6 +13,9 @@ install_packages() {
     # Power recommendations from: https://discussion.fedoraproject.org/t/how-can-i-increase-battery-life/111601
     dnf install -y tlp tlp-rdw
 
+    # GNOME extensions
+    dnf install -y  gnome-shell-extension-blur-my-shell
+
     systemctl enable tailscaled
 }
 
