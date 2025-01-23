@@ -8,8 +8,7 @@ install_packages() {
         fastfetch \
         distrobox \
         vim \
-        tailscale \
-        waydroid
+        tailscale
 
     systemctl enable tailscaled
 }
