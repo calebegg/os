@@ -8,7 +8,8 @@ install_packages() {
         fastfetch \
         distrobox \
         vim \
-        tailscale
+        tailscale \
+        intel-gpu-tools
 
     # Power recommendations from: https://discussion.fedoraproject.org/t/how-can-i-increase-battery-life/111601
     dnf install -y tlp tlp-rdw
@@ -17,6 +18,7 @@ install_packages() {
     dnf install -y  gnome-shell-extension-blur-my-shell
 
     systemctl enable tailscaled
+    systemctl enable tlp.service
 }
 
 # Function to install and configure starship prompt
@@ -50,11 +52,11 @@ customize_os_release() {
 
 # Main execution
 main() {
-    # Copy system files
-    rsync -rvK /tmp/system_files/* /
-
     # Install and configure packages
     install_packages
+
+    # Copy system files
+    rsync -rvK /tmp/system_files/* /
 
     # Update GNOME settings
     dconf update
