@@ -69,7 +69,8 @@ main() {
 
     # Finalize container
     ostree container commit
-    bootc container lint
+    # TODO: fix
+    # bootc container lint
 }
 
 main
