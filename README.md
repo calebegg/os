@@ -35,3 +35,9 @@ Caleb needed an os
 - https://github.com/m2Giles/m2os/blob/7d48703fffeb96bc10fd8a30e2aa56a02c2cf016/desktop-packages.sh#L16
 - https://extensions.gnome.org/extension/5470/weather-oclock/
 - Remove background logo
+
+## Counter
+
+GitHub disables workflows for inactive projects, so this is the number of times I've had to make a useless edit so I keep getting OS updates:
+
+1
