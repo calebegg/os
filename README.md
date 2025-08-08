@@ -40,4 +40,4 @@ Caleb needed an os
 
 GitHub disables workflows for inactive projects, so this is the number of times I've had to make a useless edit so I keep getting OS updates:
 
-1
+2
